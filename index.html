@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/left_content.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.1-web/css/all.css">
+    <link rel="stylesheet" href="./assets/css/right_content.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main grid row">
+        <div class="left__content col m-3 l-3">
+            <div class="left__content__nav">
+                <h2 class="left__content__heading">Turnip Sippy's Playlist <i class="fa-solid fa-carrot"></i> </h2>
+            </div>
+            <div class="left__content__songs">
+
+                <!-- SONG PLAY LIST ITEM BEGINS -->
+
+                
+
+                <!-- SONG PLAY LIST ITEM ENDS -->
+
+            </div>
+        </div>
+
+        <!-- LEFT CONTENT END -->
+
+
+        <!-- RIGHT CONTENT START -->
+        <div class="right__content col m-9 l-9">
+
+            <!-- NAV BAR RIGHT -->
+
+            <div class="right__navbar">
+                <ul class="right__navbar-list">
+                    <li class="right__navbar-item active">MAIN LOUNGE</li>
+                    <li class="right__navbar-item">DISCOVER</li>
+                </ul>
+                <!-- <div class="right__navbar-search">
+                    <div class="right__navbar-search-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                    <input class="right__navbar-search-bar" type="text" placeholder="Search artist,or songs">
+                </div> -->
+            </div>
+
+            <!-- END NAV BAR -->
+
+            <div class="wallpaper main__content active grid row">
+
+                <!-- CONTENT SLIDER -->
+
+                <div class="wallpaper__content col l-6">
+                    <h2 class="wallpaper__heading">
+                        Flume: Skin
+                    </h2>
+                    <span class="wallpaper__desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae veniam laborum nostrum veritatis optio maxime dignissimos quasi, cum deleniti. Temporibus necessitatibus exercitationem animi a adipisci nulla asperiores veritatis, eaque sapiente.
+                    </span>
+                    <div class="wallpaper__buttons">
+                        <div class="wallpaper__play-btn">Share</div>
+                        <div class="wallpaper__follow-btn">
+                            <a href="" class="wallpaper__follow-link"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- END CONTENT SLIDER -->
+                <div class="wallpaper__lyrics col l-6">
+                    <span>
+                        
+                    </span>
+                </div>
+
+            </div>
+            <div class="main__content main__content--decor">
+                <div class="main__content-artist">
+                    <h2 class="main__content-topic">
+                        Popular Artist
+                    </h2>
+                    <div class="main__content-line-break">
+
+                    </div>
+                    <div class="main__content-artist-container">
+                        <div class="artist__block">
+                            <img class="artist__block-img" src="./assets/img/adele.jpg" alt="">
+
+                        </div>
+                        <div class="artist__songs">
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="music__control">
+        <div class="music__playing-icon">
+            <i class="fa-solid fa-music"></i>
+        </div>
+        <div class="music__info">
+            <div class="music__thumb">
+                <img id="music__thumb" src="" alt="">
+            </div>
+            <div class="music__details">
+                <h4 class="music__name">
+                    Lorem
+                </h4>
+                <span class="music__singer">
+                    Lorem
+                </span>
+            </div>
+        </div>
+        <div class="music__button">
+            <div class="music__btn music__prev-btn">
+                <i class="fa-solid fa-backward-fast"></i>
+            </div>
+            <div class="music__btn music__control-btn">
+                <i class="fa-solid fa-play music__play-btn"></i>
+                <i class="fa-solid fa-pause music__pause-btn"></i>
+            </div>
+            <div class="music__btn music__next-btn">
+                <i class="fa-solid fa-forward-fast"></i>
+            </div>
+        </div>
+        <div class="music__time">
+            <!-- <span class="music__current-time">1</span> -->
+            <input id="progress" class="music__level-progress" type="range" value="0" step="1" min="0" max="100">
+            <audio src="" id="audio"></audio>
+            <!-- <span class="music__duration">2:00</span> -->
+        </div>
+        <div class="music__status ">
+            <i class="fa-solid fa-shuffle"></i>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
